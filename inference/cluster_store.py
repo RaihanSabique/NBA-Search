@@ -1,7 +1,6 @@
 # Cluster API
 import math
 import statistics
-
 from sklearn.cluster import KMeans
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -129,3 +128,4 @@ class ClusterStore(object):
         self.total_cluster = 0
         self.clusters = None
         self.avg_distance = 0.0
+
